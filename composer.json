@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "m-a-t-t-h/weight",
+    "description": "This is my package weight",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "m-a-t-t-h",
+        "weight"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/m-a-t-t-h/weight",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Matt",
+            "email": "matt@hoskison.co.uk",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Matt\\Weight\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Matt\\Weight\\Tests\\": "tests"
         }
     },
     "scripts": {
