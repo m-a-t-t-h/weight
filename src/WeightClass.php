@@ -6,6 +6,7 @@ class WeightClass
 {
     public function __construct(protected float $kilograms)
     {
+        # Empty constructor
     }
 
     public static function kilograms(float $kilograms): self
